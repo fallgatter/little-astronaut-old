@@ -1,5 +1,8 @@
 #pragma once
 
+//Bibliotecas Próprias:
+#include"../Being.h"
+
 namespace Entities{
     class Entity: public Being{
         protected:
@@ -8,5 +11,5 @@ namespace Entities{
             Entity();
             virtual ~Entity();
             virtual void run();
-};
-}using namespace Entitites;
+    };
+}using namespace Entities;
