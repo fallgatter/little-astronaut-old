@@ -1,7 +1,7 @@
 #pragma once
 
 //Bibliotecas Padrões:
-#include<Vector2.hpp>
+#include<SFML\System\Vector2.hpp>
 using namespace sf;
 
 //Bibliotecas Próprias:
@@ -13,11 +13,11 @@ namespace Entities{
             int x, y;
             Vector2f size, pos;
         public:
-            Entity(int X=0, int Y=0, Vector2f SIZE=(0.0,0.0), Vector2f POS=(0.0,0.0), int ID);
+            Entity(int X=0, int Y=0, Vector2f SIZE=(0.f,0.f), Vector2f POS=(0.f,0.f), int ID);
             virtual ~Entity();
             virtual void run();
-            void setSize(Vector2f SIZE=(0.0,0.0));
-            void setPosition(Vector2f POS=(0.0,0.0));
+            void setSize(Vector2f SIZE=(0.f,0.f));
+            void setPosition(Vector2f POS=(0.f,0.f));
             Vector2f getSize() const;
             Vector2f getPosition() const;
             virtual void collide(Entity* other);
