@@ -11,7 +11,7 @@ namespace Managers{
     Collision_Manager::~Collision_Manager(){
         EL=NULL;
     }
-    void Collision_Manager::setList(EntityList* el){
+    void Collision_Manager::setList(el){
         EL=el;
     }
     void Collision_Manager::manage(){
@@ -30,4 +30,5 @@ namespace Managers{
                     (*EL)[j]->collide((*EL)[i]);
                 }
         }
+    }
 }
