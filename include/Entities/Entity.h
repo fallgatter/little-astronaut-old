@@ -13,11 +13,11 @@ namespace Entities{
             int x, y;
             Vector2f size, pos;
         public:
-            Entity(int X=0, int Y=0, Vector2f SIZE=(0.f,0.f), Vector2f POS=(0.f,0.f), int ID);
+            Entity(int X=0, int Y=0, Vector2f SIZE=Vector2f(0.f, 0.f), Vector2f POS=Vector2f(0.f, 0.f), int ID=0);
             virtual ~Entity();
             virtual void run();
-            void setSize(Vector2f SIZE=(0.f,0.f));
-            void setPosition(Vector2f POS=(0.f,0.f));
+            void setSize(Vector2f SIZE=Vector2f(0.f, 0.f));
+            void setPosition(Vector2f POS=Vector2f(0.f, 0.f));
             Vector2f getSize() const;
             Vector2f getPosition() const;
             virtual void collide(Entity* other);
