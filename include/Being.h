@@ -5,7 +5,9 @@ class Being{
         int id;
     public:
         Being();
+        Being(int type);
         virtual ~Being();
-        virtual void run();
+        virtual void run() = 0;
         void self_print();
+        int get_Id () const;
 };

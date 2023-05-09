@@ -11,5 +11,6 @@ namespace Entities{
             Entity();
             virtual ~Entity();
             virtual void run();
+    
     };
 }using namespace Entities;
