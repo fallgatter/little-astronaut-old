@@ -29,6 +29,6 @@ namespace Entities{
         return pos;
     }
 
-    void Entity::collide(Entity *other){
+    void Entity::collide(){
     }
 }
