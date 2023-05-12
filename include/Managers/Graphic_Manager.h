@@ -12,6 +12,8 @@ namespace Managers{
             RenderWindow* window;
             View view;
             list <Texture*> texturas;
+            Clock clock;
+            static float dt;
         public:
             Graphic_Managers();
             ~Graphic_Managers();
@@ -21,5 +23,9 @@ namespace Managers{
             void display();
             void clear();
             void closeWindow();
+            //void show();
+            void updateTime();
+            float getDt();
+            void render(Sprite* body);
     };
 } using namespace Managers;
