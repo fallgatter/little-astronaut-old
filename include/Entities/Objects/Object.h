@@ -12,6 +12,7 @@ namespace Entities{
                 Object();
                 virtual ~Object();
                 virtual void run() = 0;
+                virtual void colide() = 0;
         };
     }using namespace Objects;
 }using namespace Entities;
