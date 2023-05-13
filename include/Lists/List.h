@@ -4,37 +4,37 @@
 
 
 namespace Lists{
-    template< typename Tl>
+    template <typename Tl>
     class List{
     private:
         template <typename Te> class Element;
         {
             Element<Te>* next;
             Te* data;
-            ELement(T* pT = NULL) : data(dt), next(NULL){}
+            Element(Tl* pT = NULL) : data(dt), next(NULL){}
             ~Element(){
                 data = NULL;
                 next = NULL;
             }
         };
         int size;
-        Element<T>* pFirst;
-        Element<T> pLast;
+        Element<Tl>* pFirst;
+        Element<Tl>* pLast;
     public:
 
-        List(): pFIrst(NULL), pLast(NULL), size(0){}
+        List(): pFirst(NULL), pLast(NULL), size(0){}
         ~List(){
             clear();
             pFirst = NULL;
             pLast = NULL;
         }
-        void insert_front(T* pT)
+        void insert_front(Tl* pT)
 		{
 			if (!pT)
 			{
 				return;
 			}
-			T* pAux = new Element<T>(pT);
+			Tl* pAux = new Element<Tl>(pT);
 			if (!pAux)
 			{
 				return;
@@ -51,13 +51,13 @@ namespace Lists{
 			pFirst = pAux;
 			pAux = NULL;
 		}
-        void insert_back(T* pT)
+        void insert_back(Tl* pT)
 		{
 			if (!pT)
 			{
 				return;
 			}
-			Element<T>* pAux = new Element<T>(pT);
+			Element<Tl>* pAux = new Element<Tl>(pT);
 			if (!pAux)
 			{
 				return;
@@ -74,13 +74,13 @@ namespace Lists{
 			pLast = pAux;
 			pAux = NULL;
 		}
-        T* operator[](int idx)
+        Tl* operator[](int idx)
 		{
 			if (idx < 0 || idx > size)
 			{
 				return NULL;
 			}
-			Element<T> *pAux = pFirst;
+			Element<Tl> *pAux = pFirst;
 			if(pAux)
 				for (int i = 0; i < idx; i++)
 				{
@@ -100,8 +100,8 @@ namespace Lists{
 			}
 			if (empty())
 				return;
-			Element<T>* pAux = pFirst;
-			Element<T>* pAuxprev = NULL;
+			Element<Tl>* pAux = pFirst;
+			Element<Tl>* pAuxprev = NULL;
 			for (int i = 0; i < idx; i++)
 			{
 				pAuxprev = pAux;
@@ -138,7 +138,7 @@ namespace Lists{
 		{
 			if (empty())
 				return;
-			Element<T>* pAux = NULL;
+			Element<Tl>* pAux = NULL;
 			for (int i = 0; i < size; i++)
 			{
 				remove(i);

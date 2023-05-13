@@ -5,8 +5,8 @@
 namespace Lists{
     class Entity_List{
         public:
-            List<Entity> LEs;
-            Entity_List() : LEs(){}
+            List<Entity> EL;
+            Entity_List() : EL(){}
 };
 
 } using namespace Lists;
