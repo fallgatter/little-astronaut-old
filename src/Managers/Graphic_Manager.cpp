@@ -7,7 +7,9 @@
 namespace Managers{
     //dar um jeito pra implementar o padrão singletom no projeto, video 2 do grafico
     Graphic_Managers::Graphic_Managers() : window(new sf::RenderWindow(sf::VideoMode(WIDTH, HEIGHT), "Little_Astronaut", sf::Style::Titlebar | sf::Style::Close)),
-    view(sf::Vector2f(WIDTH / 2, HEIGHT / 2), sf::Vector2f(WIDTH, HEIGHT)), texturas(){}
+    view(sf::Vector2f(WIDTH / 2, HEIGHT / 2), sf::Vector2f(WIDTH, HEIGHT)), texturas(), dt(0){
+        
+    }
 
     Graphic_Managers::~Graphic_Managers(){
         list<Texture*>::iterator it;
@@ -75,5 +77,9 @@ namespace Managers{
     float Graphic_Managers::getDt(){
         return dt;
     }
+    bool Graphic_Managers::isopen(){
+        return window->isOpen();
+    }
+    
 } using namespace Managers;
 
