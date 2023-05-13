@@ -1,5 +1,5 @@
+//Game Libraries:
 #include"../../include/Managers/Graphic_Manager.h"
-
 
 #define WIDTH 1280
 #define HEIGHT 920

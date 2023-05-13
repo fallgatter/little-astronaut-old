@@ -1,6 +1,6 @@
 #pragma once
 
-//Own Libraries:
+//Game Libraries:
 #include"../Lists/Entity_List.h"
 
 namespace Managers{

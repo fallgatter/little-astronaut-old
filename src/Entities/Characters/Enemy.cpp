@@ -1,4 +1,4 @@
-//Bibliotecas Próprias:
+//Game Libraries:
 #include"../../../include/Entities/Characters/Enemy.h"
 
 namespace Entities{

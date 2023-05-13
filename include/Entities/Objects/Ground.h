@@ -1,6 +1,6 @@
 #pragma once
 
-//Bibliotecas Próprias:
+//Game Libraries:
 #include"Object.h"
 
 namespace Entities{

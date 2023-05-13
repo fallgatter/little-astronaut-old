@@ -1,5 +1,9 @@
 #pragma once
+
+//Standard Libraries:
 #include"List.h"
+
+//Game Libraries:
 #include"../Entities/Entity.h"
 
 namespace Lists{

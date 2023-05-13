@@ -1,4 +1,4 @@
-//Bibliotecas Próprias:
+//Game Libraries:
 #include"../../../include/Entities/Characters/Character.h"
 
 namespace Entities{

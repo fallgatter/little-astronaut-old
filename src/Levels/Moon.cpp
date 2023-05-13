@@ -1,4 +1,4 @@
-//Bibliotecas Próprias:
+//Game Libraries:
 #include"../../include/Levels/Moon.h"
 
 namespace Levels{

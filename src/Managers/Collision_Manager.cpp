@@ -1,7 +1,7 @@
 //Standard Libraries:
 #include<math.h>
 
-//Own Libraries:
+//Game Libraries:
 #include"../../include/Managers/Collision_Manager.h"
 
 namespace Managers{

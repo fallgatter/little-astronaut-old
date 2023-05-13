@@ -1,4 +1,4 @@
-//Bibliotecas Próprias:
+//Game Libraries:
 #include"../../include/Levels/Level.h"
 
 namespace Levels{
