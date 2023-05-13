@@ -1,4 +1,4 @@
-//Bibliotecas Próprias:
+//Game Libraries:
 #include"../../../../include/Entities/Characters/Enemies/UFO.h"
 
 namespace Entities{
@@ -10,5 +10,13 @@ namespace Entities{
         UFO::~UFO(){
                 
         };
+
+        void UFO::run(){
+
+        }
+
+        void UFO::collide(){
+
+        }
     }
 }

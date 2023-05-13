@@ -1,10 +1,10 @@
 #pragma once
 
-//Bibliotecas Padrões:
+//Standard Libraries:
 #include<SFML\System\Vector2.hpp>
 using namespace sf;
 
-//Bibliotecas Próprias:
+//Game Libraries:
 #include"../Being.h"
 
 namespace Entities{

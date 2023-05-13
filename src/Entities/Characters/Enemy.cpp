@@ -1,4 +1,4 @@
-//Bibliotecas Próprias:
+//Game Libraries:
 #include"../../../include/Entities/Characters/Enemy.h"
 
 namespace Entities{
@@ -8,6 +8,14 @@ namespace Entities{
         }
 
         Enemy::~Enemy(){
+
+        }
+
+        void Enemy::run(){
+
+        }
+
+        void Enemy::collide(){
 
         }
     }

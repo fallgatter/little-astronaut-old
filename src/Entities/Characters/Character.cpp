@@ -1,4 +1,4 @@
-//Bibliotecas Próprias:
+//Game Libraries:
 #include"../../../include/Entities/Characters/Character.h"
 
 namespace Entities{
@@ -9,6 +9,14 @@ namespace Entities{
 
         Character::~Character(){
             
+        }
+
+        void Character::run(){
+
+        }
+
+        void Character::collide(){
+
         }
     }
 }

@@ -1,6 +1,6 @@
 #pragma once
 
-//Bibliotecas Próprias:
+//Game Libraries:
 #include"../Entity.h"
 
 namespace Entities{
@@ -11,6 +11,7 @@ namespace Entities{
             public:
                 Object();
                 virtual ~Object();
+                virtual void run() = 0;
         };
     }using namespace Objects;
 }using namespace Entities;

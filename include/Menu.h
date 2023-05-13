@@ -1,6 +1,6 @@
 #pragma once
 
-//Bibliotecas Próprias:
+//Game Libraries:
 #include"Being.h"
 
 class Menu: public Being{

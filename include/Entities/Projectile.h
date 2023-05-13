@@ -1,6 +1,6 @@
 #pragma once
 
-//Bibliotecas Próprias:
+//Game Libraries:
 #include"Entity.h"
 
 namespace Entities{
@@ -10,5 +10,7 @@ namespace Entities{
         public:
             Projectile();
             virtual ~Projectile();
+            void run();
+            void collide();
     };
 }using namespace Entities;

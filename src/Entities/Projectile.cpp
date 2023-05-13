@@ -1,4 +1,4 @@
-//Bibliotecas Próprias:
+//Game Libraries:
 #include"../../include/Entities/Projectile.h"
 
 namespace Entities{
@@ -7,6 +7,14 @@ namespace Entities{
     }
 
     Projectile::~Projectile(){
+
+    }
+
+    void Projectile::run(){
+
+    }
+
+    void Projectile::collide(){
 
     }
 }
