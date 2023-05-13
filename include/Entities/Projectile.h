@@ -10,5 +10,7 @@ namespace Entities{
         public:
             Projectile();
             virtual ~Projectile();
+            void run();
+            void collide();
     };
 }using namespace Entities;

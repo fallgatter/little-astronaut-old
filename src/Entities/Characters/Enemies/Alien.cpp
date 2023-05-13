@@ -10,5 +10,13 @@ namespace Entities{
         Alien::~Alien(){
                 
         };
+
+        void Alien::run(){
+
+        }
+
+        void Alien::collide(){
+            
+        }
     }
 }

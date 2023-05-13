@@ -11,6 +11,8 @@ namespace Entities{
             public:
                 Player();
                 ~Player();
+                void run();
+                void collide();
         };
     }using namespace Characters;
 }using namespace Entities;

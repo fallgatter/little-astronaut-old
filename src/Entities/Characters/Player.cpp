@@ -10,5 +10,13 @@ namespace Entities{
         Player::~Player(){
 
         }
+
+        void Player::run(){
+
+        }
+
+        void Player::collide(){
+
+        }
     }
 }

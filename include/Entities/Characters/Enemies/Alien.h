@@ -11,6 +11,8 @@ namespace Entities{
             public:
                 Alien();
                 ~Alien();
+                void run();
+                void collide();
         };
     }using namespace Characters;
 }using namespace Entities;

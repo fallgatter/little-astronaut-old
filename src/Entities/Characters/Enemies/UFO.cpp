@@ -10,5 +10,13 @@ namespace Entities{
         UFO::~UFO(){
                 
         };
+
+        void UFO::run(){
+
+        }
+
+        void UFO::collide(){
+
+        }
     }
 }

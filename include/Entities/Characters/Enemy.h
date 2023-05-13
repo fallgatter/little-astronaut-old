@@ -11,6 +11,8 @@ namespace Entities{
             public:
                 Enemy();
                 ~Enemy();
+                virtual void run();
+                virtual void collide();
         };
     }using namespace Characters;
 }using namespace Entities;

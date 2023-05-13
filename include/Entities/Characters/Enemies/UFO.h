@@ -11,6 +11,8 @@ namespace Entities{
             public:
                 UFO();
                 ~UFO();
+                void run();
+                void collide();
         };
     }using namespace Characters;
 }using namespace Entities;

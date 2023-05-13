@@ -10,5 +10,13 @@ namespace Entities{
         Crab::~Crab(){
                 
         };
+
+        void Crab::run(){
+
+        }
+
+        void Crab::collide(){
+
+        }
     }
 }

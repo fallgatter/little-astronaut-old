@@ -10,5 +10,13 @@ namespace Entities{
         Enemy::~Enemy(){
 
         }
+
+        void Enemy::run(){
+
+        }
+
+        void Enemy::collide(){
+
+        }
     }
 }

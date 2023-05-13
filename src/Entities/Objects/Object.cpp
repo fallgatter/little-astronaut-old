@@ -10,5 +10,13 @@ namespace Entities{
         Object::~Object(){
             
         }
+
+        void Object::run(){
+
+        }
+
+        void Object::collide(){
+
+        }
     }
 }

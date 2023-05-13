@@ -11,6 +11,8 @@ namespace Entities{
             public:
                 Character();
                 virtual ~Character();
+                virtual void run() = 0;
+                virtual void collide() = 0;
         };
     }using namespace Characters;
 }using namespace Entities;

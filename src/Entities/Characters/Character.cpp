@@ -10,5 +10,13 @@ namespace Entities{
         Character::~Character(){
             
         }
+
+        void Character::run(){
+
+        }
+
+        void Character::collide(){
+
+        }
     }
 }

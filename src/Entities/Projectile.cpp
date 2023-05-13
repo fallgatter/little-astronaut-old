@@ -9,4 +9,12 @@ namespace Entities{
     Projectile::~Projectile(){
 
     }
+
+    void Projectile::run(){
+
+    }
+
+    void Projectile::collide(){
+
+    }
 }
